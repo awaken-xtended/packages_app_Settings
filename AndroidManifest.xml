@@ -4660,6 +4660,19 @@
                  <action android:name="settings.intelligence.battery.action.FETCH_BLUETOOTH_BATTERY_DATA"/>
             </intent-filter>
         </receiver>
+        <!-- awakenLab -->
+        <activity android:name=".Settings$awakenLabActivity"
+            android:label="@string/awaken_lab_dash_title"
+            android:icon="@drawable/ic_homepage_awaken"
+            android:exported="true"
+            android:parentActivityName="com.android.settings">
+            <intent-filter>
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.lab.awakenLab" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
