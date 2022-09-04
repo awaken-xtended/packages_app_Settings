@@ -181,6 +181,8 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherClientManager;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.awaken.lab.awakenLab;
+
 public class SettingsGateway {
 
     /**
@@ -349,7 +351,10 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
+            awakenLab.class.getName()
             WifiTetherClientManager.class.getName()
+            TurnScreenOnDetails.class.getName(),
+            awakenLab.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -392,5 +397,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
+            Settings.awakenLabActivity.class.getName(),
     };
 }
