@@ -351,10 +351,10 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            awakenLab.class.getName()
-            WifiTetherClientManager.class.getName()
+            awakenLab.class.getName(),
+            WifiTetherClientManager.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            awakenLab.class.getName()
+            awakenLab.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
