@@ -455,6 +455,6 @@ public class Settings extends SettingsActivity {
      */
     public static class PreviouslyConnectedDevicesActivity extends SettingsActivity { /* empty */ }
    
-    // SuperiorLab Additoon
-    public static class awakenActivity extends SettingsActivity {}
+    // Awaken Lab Additoon
+    public static class awakenLabActivity extends SettingsActivity {}
 }
